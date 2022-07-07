@@ -14,24 +14,24 @@ const Navbar = () => {
       <nav className="navbar__nav">
         <ul className="navbar__container-list">
           <li className="navbar__list">
-            <a className="navbar__a" aria-current="page">Home</a>
+            <a className="navbar__a" aria-current="page" href="#">Home</a>
           </li>
           <li className="navbar__list">
-            <a className="navbar__a">About</a>
+            <a className="navbar__a" href="#">About</a>
           </li>
           <li className="navbar__list">
-            <a className="navbar__a">Services</a>
+            <a className="navbar__a" href="#">Services</a>
           </li>
           <li className="navbar__list">
-            <a className="navbar__a">Portfolio</a>
+            <a className="navbar__a" href="#">Portfolio</a>
           </li>
           <li className="navbar__list nav-item dropdown">
-            <a className="navbar__a" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="navbar__a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pages
             </a>
           </li>
           <li className="navbar__list">
-            <a className="navbar__a">Contact</a>
+            <a className="navbar__a" href="#">Contact</a>
           </li>
         </ul>
       </nav>
