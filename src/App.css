@@ -8,6 +8,7 @@
 .flex-container {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 /* navbar section */
@@ -62,6 +63,16 @@
   float: right;
 }
 
+/*  ip section */
+.ip-section {
+  height: 3rem;
+}
+
+.ip-section__p {
+  text-align: center;
+  margin-top: revert;
+  font-weight: bold;
+}
 /* carousel */
 .swiper {
   width: 100%;
